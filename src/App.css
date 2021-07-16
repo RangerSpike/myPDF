@@ -12,7 +12,503 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.print-quot6 {
+  float: right;
+  width: 42%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  text-align: left;
+}
+.pt-left::after {
+  content: ":";
+  float: right;
+  color: #202020;
+  font-weight: 400;
+}
+.pd8-det {
+  padding-left: 12px;
+  text-align: left;
+  font-size: 13px;
+}
 
+.print-vendor {
+  background: #ffffff;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #000;
+  color: #000;
+  min-height: 125px;
+  text-align: left;
+}
+.pvc {
+  margin-left: 0px;
+}
+.print-detail5 {
+  background: #ffffff;
+  padding: 5px 5px;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 15px;
+  text-align: left;
+  height: 124px;
+}
+.print-detail5 h1 {
+  margin: 0px;
+  font-size: 14px;
+  color: #484848;
+  margin-bottom: 5px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+.print-table9 {
+  background: #ffffff;
+  padding: 0px;
+  margin-top: 15px;
+  border-radius: 0px;
+  border: 1px solid #000;
+  font-size: 13px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.print-table9 table th:nth-child(1) {
+  width: 5%;
+}
+.print-table9 table th:first-child {
+  border-top-left-radius: 10px;
+}
+.print-table9 table th {
+  text-align: center;
+  background: #fff;
+  color: #272727;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.print-table9 table th {
+  font-weight: 400;
+}
+.print-table9 table td {
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #000 !important;
+}
+
+.mt-2,
+.my-2 {
+  margin-top: 0.4rem !important;
+}
+
+.print-total {
+  margin-top: 15px;
+  float: right;
+  width: 115%;
+  font-size: 15px;
+}
+
+.mr-0,
+.mx-0 {
+  margin-right: 0 !important;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.tl1 {
+  border-top-left-radius: 0px;
+  border-bottom: none;
+}
+
+.tot-left {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  padding: 5px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.tr1 {
+  border-top-right-radius: 0px;
+  border-bottom: none;
+}
+.tot-right {
+  background: #ffffff;
+  color: #181818;
+  border: 1px solid #000;
+  border-left: none;
+  padding: 5px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.print-total7 h4 span {
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.print-total7 h4 {
+  margin: 0px;
+  color: #000;
+  font-size: 20px;
+
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 15px;
+  text-align: right;
+}
+
+.bot-cl5 {
+  margin-top: 10px;
+}
+
+.bot-cl6 {
+  background: #ffffff;
+  padding: 10px;
+  margin-top: 0px;
+  border-radius: 0px;
+  border: 1px solid #000;
+  width: 100%;
+  height: 140px;
+  text-align: left;
+}
+
+.pdf-page {
+  position: relative;
+  margin: 0 auto;
+  padding: .4in .3in;
+  color: #333;
+  background-color: #fff;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.3);
+  box-sizing: border-box;
+width: 60%;
+  /*
+      Use the DejaVu Sans font for display and embedding in the PDF file.
+      The standard PDF fonts have no support for Unicode characters.
+   */
+  font-family: "DejaVu Sans", "Arial", sans-serif;
+}
+.logo-div {
+  border-right: 1px solid #000;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+.print-quot {
+  background: #ffffff;
+  padding-left: 15px;
+  padding-right: 5px;
+  margin-top: 15px;
+  border: 1px solid #000;
+}
+.row {
+  
+  display: flex;
+  
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.print-quot1 {
+  border-right: 1px solid #000;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  width: 30%;
+}
+.print-quot1 h1 {
+  margin: 0px;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500; 
+}
+.print-quot3 {
+  float: right;
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.pt-left {
+  color: #202020;
+  font-weight: 600;
+}
+.pt-right {
+  color: #202020;
+  font-weight: 400;
+}
+@media (min-width: 576px){
+.col-sm-7 {
+   -ms-flex: 0 0 58.333333%;
+   flex: 0 0 58.333333%;
+   max-width: 58.333333%;
+}}
+
+.quot-hd {
+  margin: 0px;
+  font-size: 17px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  margin-right: 640px;
+
+}
+.left1 {
+  padding-right: 7px;
+}
+.print-detail1 {
+  background: #ffffff;
+  padding: 5px 10px 0px 10px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  height: 130px;
+  font-size: 12px;
+  max-height: 140px!important;
+}
+.print-detail1 h1 {
+  margin: 0px;
+  font-size: 17px;
+  color: #000000;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.print-detail1 p {
+  padding-left: 0px;
+  text-align-last: left;
+}
+.m-0 {
+  margin: 0!important;
+}
+b, strong {
+  font-weight: bolder;
+}
+
+
+.right1 {
+  padding-left: 7px;
+}
+.pd3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 130px;
+  margin-top: 9px;
+  max-height: 140px!important;
+}
+.print-detail3 {
+  background: #ffffff;
+  padding: 5px 5px;
+  
+  border: 1px solid #000;
+  color: #000;
+}
+.print-detail3 h1 {
+  margin: 0px;
+  font-size: 14px;
+  color: #484848;
+  margin-bottom: 5px;
+  font-weight: 600;
+  padding-left: 5px;
+  text-transform: uppercase;
+  text-align-last: left;
+}
+.pd3-det {
+  padding-left: 12px;
+  text-align: left;
+  font-size: 15px;
+}
+.pri-field-head::after {
+  content: ':';
+  float: right;
+  color: #014172;
+  font-weight: 400;
+}
+.pri-field-data {
+  margin-left: -18px;
+  line-height: 23px;
+}
+
+
+.dash-pr {
+  margin-top: 15px;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 0px;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.mt-3, .my-3 {
+  margin-top: 1rem!important;
+}
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+table {
+  border-collapse: collapse;
+}
+.table thead th {
+  vertical-align: bottom;
+  font-size: 13px;
+  
+}
+.table-bordered td, .table-bordered th {
+  border: 1px solid #000!important;
+}
+.table>tbody {
+  vertical-align: inherit;
+  font-size: 14px;
+}
+
+
+.dash-terms {
+  background: #ffffff;
+  padding: 0px;
+  margin-top: 0px;
+  border-radius: 0px;
+  padding-top: 10px;
+  text-align-last: left;
+  font-size: 12px;
+}
+.dash-terms h1 {
+  margin: 0px;
+  font-size: 16px;
+  background: none;
+  padding-left: 0px;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  text-align-last: left;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.bot-cl {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align-last: left;
+}
+.bot-cl h1.quotation {
+  text-align: left;
+  font-weight: 700;
+}
+.bot-cl h1 {
+  margin: 0px;
+  font-size: 16px;
+  background: none;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.bot-cl2 {
+  background: #ffffff;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 0px;
+  border: 1px solid #000;
+  width: 100%;
+  height: 120px;
+  text-align-last: left;
+  font-weight: 600;
+}
+.bot-left::after {
+  content: ':';
+  float: right;
+  color: #000;
+  font-weight: 400;
+}
+
+.bot-cl3 {
+  background: #ffffff;
+  padding: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  border-radius: 0px;
+  border: 1px solid #000;
+  width: 100%;
+  text-align: center;
+  height: 120px;
+  text-align-last: left;
+}
+.bot-cl3 {
+  background: #ffffff;
+  padding: 10px;
+  padding-right: 20px;
+  margin-top:3px;
+  border-radius: 0px;
+  border: 1px solid #000;
+  width: 100%;
+  text-align: center;
+  height: 122px;
+  text-align-last: right;
+}
+.bot-cl3 h4 {
+  margin: 0px;
+  font-size: 14px;
+  color: #000;
+  margin-top: 0px;
+  font-weight: 400;
+  text-align: right;
+}
+.bot-in {
+  margin-top: 60px;
+  text-align: right;
+}
+
+.bot-cl5 h1 {
+  margin: 0px;
+  font-size: 16px;
+  background: none;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.bot-left {
+  color: #000;
+  font-weight: 600;
+  padding-left: 19px;
+  font-size: 14px;
+  padding-right: 3px;
+}
+
+.bot-cl10 {
+  background: #ffffff;
+  padding: 10px;
+  padding-right: 20px;
+  margin-top: -1px;
+  border-radius: 0px;
+  border: 1px solid #000;
+  width: 100%;
+  text-align: center;
+  height: 140px;
+}
+
+.bot-cl10 h5 {
+  margin: 0px;
+  font-size: 13px;
+  color: #111111;
+  margin-top: 60px;
+  line-height: 22px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
